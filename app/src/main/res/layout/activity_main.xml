@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit_text_desa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/desa"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/edit_text_tanah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tanah"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/edit_text_tanaman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tanaman"
+        android:inputType="text" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saveNote"
+        android:text="@string/Save" />
+
+    <EditText
+        android:id="@+id/edit_text_inputdesa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/masukkan_desamu"
+        android:inputType="text" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadNote"
+        android:text="Load" />
+    <TextView
+        android:id="@+id/text_view_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+</LinearLayout>

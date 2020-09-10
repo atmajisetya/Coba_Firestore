@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Coba Firestore</string>
+    <string name="title">Title</string>
+    <string name="Description">Description</string>
+    <string name="Save">Save</string>
+    <string name="desa">desa</string>
+    <string name="tanah">tanah</string>
+    <string name="tanaman">tanaman</string>
+    <string name="masukkan_desamu">Masukkan Desamu</string>
+</resources>
