@@ -4,6 +4,7 @@
 https://doc-central-service.widyawicara.dev/en/Voice-AI/research/training-tts
 
 ## Folder Structure
+```
 ├── kaldi-prep/
 │   ├── phonemizer.py
 │   ├── transcript_cleaning.ipynb
@@ -25,5 +26,6 @@ https://doc-central-service.widyawicara.dev/en/Voice-AI/research/training-tts
     |   ├── WDY006_1000.wav   
     ├── WDY007_0001 - WDY007_0543/ 
     └── WDY007_0001 - WDY007_0543/
+```
   
   
